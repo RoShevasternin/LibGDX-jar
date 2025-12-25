@@ -1,0 +1,88 @@
+{
+  "rigidBodies": [
+    {
+      "name": "circle",
+      "imagePath": "../../../../../../atlas/1/deff.png",
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "polygons": [],
+      "circles": [
+        {
+          "cx": 0,
+          "cy": 0,
+          "r": 0.5
+        }
+      ],
+      "shapes": [
+        {
+          "type": "CIRCLE",
+          "vertices": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "rect",
+      "imagePath": "rect.png",
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "polygons": [
+        [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      ],
+      "circles": [],
+      "shapes": [
+        {
+          "type": "POLYGON",
+          "vertices": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dynamicObjects": []
+}

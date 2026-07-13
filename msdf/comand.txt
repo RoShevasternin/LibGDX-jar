@@ -1,0 +1,1 @@
+.\msdf-atlas-gen.exe -font FONT.ttf -charset charset.txt -type mtsdf -format png -imageout FONT.png -json FONT.json -size 48 -pxrange 8 -dimensions 512 512 -yorigin top
